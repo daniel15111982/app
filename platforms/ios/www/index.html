@@ -37,11 +37,11 @@
             <h1>BookIt</h1>
         </div><!-- /header -->
         <div role="main" class="ui-content">
-            <h2 class="mc-text-center">Welcome!</h2>
-            <p class="mc-top-margin-1-5"><b>Existing Users</b></p>
-            <a href="#page-signin" class="ui-btn ui-btn-b ui-corner-all">Sign In</a>
-            <p class="mc-top-margin-1-5"><b>Don't have an account?</b></p>
-            <a href="#page-signup" class="ui-btn ui-btn-b ui-corner-all">Sign Up</a>
+            <h2 class="mc-text-center">Bem vindo!</h2>
+            <p class="mc-top-margin-1-5"><b>Usuário já existente</b></p>
+            <a href="#page-signin" class="ui-btn ui-btn-b ui-corner-all">Login</a>
+            <p class="mc-top-margin-1-5"><b>Não possui conta?</b></p>
+            <a href="#page-signup" class="ui-btn ui-btn-b ui-corner-all">Criar conta</a>
             <p></p>
         </div><!-- /content -->
     </div><!-- /page -->
@@ -52,20 +52,20 @@
         </div><!-- /header -->
         <div role="main" class="ui-content">
             <h3>Sign In</h3>
-            <label for="txt-email">Email Address</label>
+            <label for="txt-email">Email</label>
             <input type="text" name="txt-email" id="txt-email" value="">
-            <label for="txt-password">Password</label>
+            <label for="txt-password">Senha</label>
             <input type="password" name="txt-password" id="txt-password" value="">
             <fieldset data-role="controlgroup">
                 <input type="checkbox" name="chck-rememberme" id="chck-rememberme">
-                <label for="chck-rememberme">Remember me</label>
+                <label for="chck-rememberme">Lembre de min</label>
             </fieldset>
-            <a href="#dlg-invalid-credentials" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
-            <p class="mc-top-margin-1-5"><a href="begin-password-reset.html">Can't access your account?</a></p>
+            <a href="#dlg-invalid-credentials" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Enviar</a>
+            <p class="mc-top-margin-1-5"><a href="begin-password-reset.html">Não consegue acessar sua conta?</a></p>
             <div data-role="popup" id="dlg-invalid-credentials" data-dismissible="false" style="max-width:400px;">
                 <div role="main" class="ui-content">
-                    <h3 class="mc-text-danger">Login Failed</h3>
-                    <p>Did you enter the right credentials?</p>
+                    <h3 class="mc-text-danger">Login falhou</h3>
+                    <p>Você digitou seus dados certos?</p>
                     <div class="mc-text-center"><a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a></div>
                 </div>
             </div>
@@ -79,26 +79,25 @@
         <div role="main" class="ui-content">
             <h3>Sign Up</h3>
             <div id="ctn-err" class="bi-invisible"></div>
-            <label for="txt-first-name">First Name</label>
+            <label for="txt-first-name">Nome</label>
             <input type="text" name="txt-first-name" id="txt-first-name" value="">
-            <label for="txt-last-name">Last Name</label>
+            <label for="txt-last-name">Sobre Nome</label>
             <input type="text" name="txt-last-name" id="txt-last-name" value="">
-            <label for="txt-email-address">Email Address</label>
+            <label for="txt-email-address">Email</label>
             <input type="text" name="txt-email-address" id="txt-email-address" value="">
-            <label for="txt-password">Password</label>
+            <label for="txt-password">Senha</label>
             <input type="password" name="txt-password" id="txt-password" value="">
-            <label for="txt-password-confirm">Confirm Password</label>
+            <label for="txt-password-confirm">Confirme senha</label>
             <input type="password" name="txt-password-confirm" id="txt-password-confirm" value="">
             <!--<a href="#dlg-sign-up-sent" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>-->
             <button id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</button>
             <div data-role="popup" id="dlg-sign-up-sent" data-dismissible="false" style="max-width:400px;">
                 <div data-role="header">
-                    <h1>Almost done...</h1>
+                    <h1>Quase pronto...</h1>
                 </div>
                 <div role="main" class="ui-content">
-                    <h3>Confirm Your Email Address</h3>
-                    <p>We sent you an email with instructions on how to confirm your email address. Please check your inbox and follow the instructions in the email.</p>
-                    <div class="mc-text-center"><a href="sign-in.html" class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a></div>
+                    <h3> confirmar o seu endereço </h3>
+                    <p> Enviamos um e-mail com instruções sobre como confirmar o seu endereço de e-mail. Por favor, verifique sua caixa de entrada e siga as instruções no e-mail. </ P> <div class="mc-text-center"><a href="sign-in.html" class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a></div>
 
                 </div>
             </div>
@@ -109,9 +108,9 @@
             <h1>Book It</h1>
         </div><!-- /header -->
         <div role="main" class="ui-content">
-            <h2 class="mc-text-center">Registration Succeeded</h2>
-            <p class="mc-top-margin-1-5">Congratulations!  You are now registered with BookIt.</p>
-            <a href="#page-signin" class="ui-btn ui-btn-b ui-corner-all">Sign In</a>
+            <h2 class="mc-text-center">Cadastro realizado com sucesso!</h2>
+            <p class="mc-top-margin-1-5">Obrigado!  Você se cadastrou com sucesso!.</p>
+            <a href="#page-signin" class="ui-btn ui-btn-b ui-corner-all">Entrar</a>
             <p></p>
         </div><!-- /content -->
     </div><!-- /page -->
